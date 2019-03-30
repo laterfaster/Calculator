@@ -132,7 +132,7 @@ namespace exp6app
             else label1.Text = "非法输入";
             if(Calculator.wrong)
                 label1.Text = "非法输入";
-
+            Calculator.wrong = false;
         }
     }
 }
